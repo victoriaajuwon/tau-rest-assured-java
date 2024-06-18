@@ -14,6 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <restassured.version>5.4.0</restassured.version>
         <junit.version>5.11.0-M2</junit.version>
+        <junit.params.version>5.11.0-M2</junit.params.version>
         <junit.dataprovider.version>2.10</junit.dataprovider.version>
         <jackson.databind.version>2.17.1</jackson.databind.version>
     </properties>
@@ -30,6 +31,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>${junit.params.version}</version>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>com.tngtech.junit.dataprovider</groupId>
             <artifactId>junit-dataprovider-core</artifactId>
